@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor {
+    align-items: center;
+    grid-column: span 4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+  .navegacion {
+
+    flex: 1 1 auto;
+    text-align: center;
+    
+    a {
+        
+        padding: 20px;
+    }
+
+  }
+
+
+
+
+
+  .logoName {
+
+    transition: transform ease .3s;
+
+   &:hover {
+        transform: scale(1.2);
+
+    }
+
+  }
+
+
+
+}
+
