@@ -4,7 +4,10 @@ function Clock(){
   useEffect(()=>{
     setInterval(()=>{
       const date=new Date();
-      setClockState(date.toLocaleTimeString());
+
+      const time = date.toLocaleTimeString();
+
+      setClockState(time);
     },1000);
  },[]);
  return<div>{clockState}</div>;

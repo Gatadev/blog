@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0px 180px;
+  
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor {
+    align-items: center;
+    grid-column: span 4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin: 20px 0px;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  
+    font-size: 22px;
+
+  .navegacion {
+
+    flex: 1 1 auto;
+    text-align: center;
+    
+    a {
+        
+      display: inline-block;
+      position: relative;
+        padding: 2px 0px;
+        margin: 20px;
+       transition: .3s;
+      
+
+
+       &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform .5s;
+
+        
+
+       }
+
+       
+
+       &:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+       }
+
+
+
+    }
+
+    .yt {
+
+    &::after {
+    background-color: #FF0000;
+    }
+
+    }
+
+    .dis {
+
+      &::after {
+      background-color: #5865F2 ;
+      }
+  
+      }
+
+      .git {
+
+        &::after {
+        background-color: #333;
+        }
+    
+        }
+
+
+
+
+  }
+
+
+
+
+
+  .logoName {
+
+    transition: transform ease .3s;
+
+   &:hover {
+        transform: scale(1.2);
+
+    }
+
+  }
+
+
+  .reloj {
+    font-family: monospace;
+    
+    
+  }
+
+}
+
