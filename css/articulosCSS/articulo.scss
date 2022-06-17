@@ -272,6 +272,7 @@
       border-radius: 8px;
       transition: .5s;
       vertical-align: middle;
+      box-shadow: 0px 0px 20px 0px rgba(170, 170, 170, 0.2);
   
     &:hover {
       background-color: #ebebeb;
@@ -309,7 +310,7 @@
   padding-right: 15px;
   width: 65px;
   height: auto;
- 
+  
   background-position: center; 
   background-size: cover;
 }

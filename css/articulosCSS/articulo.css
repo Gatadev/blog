@@ -212,6 +212,8 @@ nav .show {
   -webkit-transition: .5s;
   transition: .5s;
   vertical-align: middle;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(170, 170, 170, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(170, 170, 170, 0.2);
 }
 
 .articulo:hover {
