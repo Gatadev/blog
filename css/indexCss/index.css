@@ -192,6 +192,8 @@ nav .show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .listado {

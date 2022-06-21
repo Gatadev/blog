@@ -67,6 +67,12 @@ nav {
 
       }
 
+      &:active {
+        background-color: #ebebeb;
+        padding: 5px 5px;
+        border-radius: 8px;
+      }
+
 
 
       &:hover::after {
@@ -211,6 +217,10 @@ nav {
         background-color: #e7e7e7;
       }
 
+      &:active {
+        background-color: #e7e7e7;
+      }
+
 
     }
 
@@ -251,8 +261,8 @@ nav {
   text-underline-offset: 4px;
   text-decoration-thickness: 3px;
   margin-bottom: 20px;
-
   font-size: 28px;
+
 }
 
 .listado {
@@ -278,6 +288,10 @@ nav {
   
 
   &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
     background-color: #ebebeb;
   }
 

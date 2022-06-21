@@ -74,6 +74,12 @@ nav .navegacion a::after {
   transition: transform .5s, -webkit-transform .5s;
 }
 
+nav .navegacion a:active {
+  background-color: #ebebeb;
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+
 nav .navegacion a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
@@ -174,6 +180,10 @@ nav .menu-contenido a:hover {
   background-color: #e7e7e7;
 }
 
+nav .menu-contenido a:active {
+  background-color: #e7e7e7;
+}
+
 nav .show {
   display: block;
 }
@@ -221,6 +231,10 @@ nav .show {
 }
 
 .articulo:hover {
+  background-color: #ebebeb;
+}
+
+.articulo:active {
   background-color: #ebebeb;
 }
 
